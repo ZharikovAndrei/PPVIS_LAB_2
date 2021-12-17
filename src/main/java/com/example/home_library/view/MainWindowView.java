@@ -1,13 +1,17 @@
 package com.example.home_library.view;
 
+import com.example.home_library.HelloApplication;
+
 public class MainWindowView {
-    public boolean verifyLogin(String string){
-        return true;
-    }
-    public boolean verifyPassword(String string){
-        return true;
-    }
-    public boolean adminAccessKey(String string){
-        return true;
-    }
+    private RegistrationWindowView registrationWindow;
+    private AdminWindowView adminWindow;
+    private MenuWindowView menuWindow;
+
+    public void show (HelloApplication helloApplication){}
+
+    public void createAuthorizationWindowView(){}
+
+    public void createRegistrationWindowView(){}
+
+    public void createMenuWindow(){}
 }
